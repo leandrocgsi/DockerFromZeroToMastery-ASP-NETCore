@@ -1,1 +1,1 @@
-# DockerizingDotNetApp
+# Docker from Zero to Mastery
