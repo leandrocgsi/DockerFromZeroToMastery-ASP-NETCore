@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "11b77794-a724-406a-b86d-9bbab60f213b",
+		"_postman_id": "e7a8fe98-444f-41bc-9e16-f67f1cc19801",
 		"name": "Docker do Zero à Maestria - Contêinerização Desmistificada .NET",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -303,7 +303,8 @@
 					"response": []
 				}
 			],
-			"description": "Folder for {{host}}:{{port}}"
+			"description": "Folder for {{host}}:{{port}}",
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "Login",
@@ -380,7 +381,8 @@
 						]
 					}
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "File",
@@ -457,7 +459,8 @@
 						]
 					}
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "Books",
@@ -638,7 +641,9 @@
 					"response": []
 				}
 			],
-			"description": "Folder for {{host}}:{{port}}"
+			"description": "Folder for {{host}}:{{port}}",
+			"protocolProfileBehavior": {}
 		}
-	]
+	],
+	"protocolProfileBehavior": {}
 }
