@@ -1,6 +1,10 @@
 # Docker do Zero à Maestria - Contêinerização Desmistificada
 
 [![Build Status](https://travis-ci.org/leandrocgsi/DockerFromZeroToMastery-ASP-NETCore.svg?branch=master)](https://travis-ci.org/leandrocgsi/DockerFromZeroToMastery-ASP-NETCore)
+![Forks](https://img.shields.io/github/forks/leandrocgsi/DockerFromZeroToMastery-ASP-NETCore)
+![Stars](https://img.shields.io/github/stars/leandrocgsi/DockerFromZeroToMastery-ASP-NETCore)
+![Last Commit](https://img.shields.io/github/last-commit/leandrocgsi/DockerFromZeroToMastery-ASP-NETCore)
+<a href="https://hub.docker.com/search?q=leandrocgsi&type=image"><img src="https://img.shields.io/badge/DockerHub-leandrocgsi-blue"/></a>
 
 [![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/docker_do_zero_a_maestria_conteinerizacao_desmistificada.png?raw=true "Docker do Zero à Maestria - Contêinerização Desmistificada")](https://www.udemy.com/course/docker-do-zero-a-maestria-conteinerizacao-desmistificada/?referralCode=47C7146F506F6CB0C4B3)
 
