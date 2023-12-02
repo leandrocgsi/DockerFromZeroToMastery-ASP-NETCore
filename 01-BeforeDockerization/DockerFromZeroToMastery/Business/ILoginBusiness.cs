@@ -1,9 +1,13 @@
-﻿using RestWithASPNETUdemy.Model;
+﻿using RestWithASPNETErudio.Data.VO;
 
-namespace RestWithASPNETUdemy.Business
+namespace RestWithASPNETErudio.Business
 {
     public interface ILoginBusiness
     {
-         object FindByLogin(UserVO user);
+        TokenVO ValidateCredentials(UserVO user);
+
+        TokenVO ValidateCredentials(TokenVO token);
+
+        bool RevokeToken(string userName);
     }
 }

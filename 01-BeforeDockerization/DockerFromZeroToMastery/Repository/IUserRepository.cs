@@ -1,10 +1,16 @@
-﻿using RestWithASPNETUdemy.Model;
-using System.Collections.Generic;
+﻿using RestWithASPNETErudio.Data.VO;
+using RestWithASPNETErudio.Model;
 
-namespace RestWithASPNETUdemy.Business
+namespace RestWithASPNETErudio.Repository
 {
     public interface IUserRepository
     {
-        User FindByLogin(string login);
+        User? ValidateCredentials(UserVO user);
+
+        User? ValidateCredentials(string username);
+
+        bool RevokeToken(string username);
+
+        User? RefreshUserInfo(User user);
     }
 }
