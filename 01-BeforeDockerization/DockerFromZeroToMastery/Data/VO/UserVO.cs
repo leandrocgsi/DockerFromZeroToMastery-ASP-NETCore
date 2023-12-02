@@ -1,10 +1,8 @@
-﻿using System.Runtime.Serialization;
-
-namespace RestWithASPNETUdemy.Model
+﻿namespace RestWithASPNETErudio.Data.VO
 {
     public class UserVO
     {
-        public string Login { get; set; }
-        public string AccessKey { get; set; }
+        public string Password { get; set; }
+        public string UserName { get; set; }
     }
 }

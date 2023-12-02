@@ -1,22 +1,22 @@
-﻿using RestWithASPNETErudio.Model.Base;
+﻿using RestWithASPNETUdemy.Model.Base;
+using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace RestWithASPNETErudio.Model
+namespace RestWithASPNETUdemy.Model
 {
     [Table("books")]
     public class Book : BaseEntity
     {
-        [Column("title")]
+        [Column("Title")]
         public string Title { get; set; }
 
-        [Column("author")]
+        [Column("Author")]
         public string Author { get; set; }
 
-        [Column("price")]
+        [Column("Price")]
         public decimal Price { get; set; }
 
-        [Column("launch_date")]
+        [Column("LaunchDate")]
         public DateTime LaunchDate { get; set; }
     }
-
 }
